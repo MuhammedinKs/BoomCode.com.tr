@@ -1,0 +1,41 @@
+<style>
+.avatar {
+  border-radius: 5% !important;  
+  border: 2px solid white;
+  padding: 1px;
+}
+#avatar2 {
+    width: 5px;
+    height: 5px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    text-align:center;
+}
+    #avatar2:hover {g
+        transform: translate(0px,-20px);
+        -webkit-transform: translate(0px,-20px);
+	}
+  </style>
+<title>BoomCode | {{kod.isim}}</title>
+<main>
+  <br><br><br>
+
+
+  <center>
+  <br>
+  	<img class="sunucusresmi" height="200" width="200" src="https://cdn.discordapp.com/attachments/1051948414188929025/1089574031340089444/Resmi_Bildiri.png">
+  </center>
+  <center>    {{kod.isim}}</title> <p class="h5">Main Ürün:</p> </center>
+  <pre class="kodyazirengi">
+    <code>{{kod.main_code}}</code>
+  </pre>
+  <code id="code_main" hidden>{{kod.main_code}}</code>
+  <!-- <button type="button" class="btn btn-outline-success btn-lg btn-block" style="margin: 1rem;" id="copy_main">Kodu Kopyala</button> -->
+  
+<!-- <button type="button" class="btn btn-outline-success btn-lg btn-block" style="margin: 1rem;" id="copy_komutlar">Kodu Kopyala</button> -->
+  <center><a href="/sil/{{kod.kod_rank}}/{{kod.id}}" style="margin: 1rem;">Kodu Sil</a></center>
+   
+
+
+
+</main>
